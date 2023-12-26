@@ -1,6 +1,6 @@
 ---
 - name: Restart Server
-  hosts: localhost
+  hosts: l13.233.89.186
   become: yes  # Run tasks with sudo (root) privileges
 
   tasks:
