@@ -1,6 +1,6 @@
 ---
 - name: Restart Server
-  hosts: your_target_servers
+  hosts: local hosts
   become: yes  # Run tasks with sudo (root) privileges
 
   tasks:
